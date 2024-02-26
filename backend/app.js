@@ -4,7 +4,7 @@ const app = express();
 const routes = require("./routes/route");
 
 app.use(express.json());
-app.use("/api", routes);
+app.use("/", routes);
 
 const PORT = 3000;
 
