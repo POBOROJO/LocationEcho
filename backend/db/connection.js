@@ -5,7 +5,10 @@ export default function connect() {
         useNewUrlParser: true,
         useUnifiedTopology: true
     });
+
+    //define schema
     const AdmiSchema = new mongoose.Schema({
+        //Scheme defination
         username: String,
         password: String
     });
